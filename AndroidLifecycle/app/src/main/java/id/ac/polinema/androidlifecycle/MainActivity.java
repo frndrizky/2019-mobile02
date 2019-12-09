@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
 	// TODO: tambahkan callback onStop() di sini
 	@Override
 	protected void onStop() {
+		super.onStop();
 		Toast.makeText(this, "App on Stop", Toast.LENGTH_SHORT).show();
 	}
 
@@ -34,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
 	@Override
 	protected void onPause() {
+		super.onPause();
 		Toast.makeText(this, "App on Pause", Toast.LENGTH_SHORT).show();
 	}
 
